@@ -1,0 +1,11 @@
+.ratings {
+  display: flex;
+}
+
+.ratings span {
+  margin: 0 2px;
+}
+
+.checked {
+  color: orange;
+}

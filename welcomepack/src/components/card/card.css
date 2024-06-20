@@ -1,0 +1,43 @@
+.v-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 200px;
+  min-width: 200px;
+  box-shadow: 0px 2px 10px 1px #ddd;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+.v-card:hover {
+  border: 1px solid #aaa;
+}
+
+.v-card img {
+  max-width: inherit;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-section a {
+  background-color: #aaa;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 3px 8px;
+  margin: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon {
+  color: #fff;
+  width: 20px;
+}

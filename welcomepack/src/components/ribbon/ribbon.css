@@ -1,0 +1,16 @@
+.ribbon {
+  width: 80px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  left: -14px;
+  top: 3px;
+  text-align: center;
+  border-radius: 7px;
+  transform: rotate(340deg);
+  color: white;
+}
+
+.Warning {
+  background-color: #ff0000;
+}
